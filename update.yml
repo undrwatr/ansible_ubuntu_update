@@ -1,4 +1,4 @@
-#call with ansible-playbook -i ../hosts update.yml -K(sudo password)
+# Call with: ansible-playbook update.yml --ask_become_pass
 ---
 - hosts: linux
   tasks:
