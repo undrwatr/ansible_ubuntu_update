@@ -1,4 +1,4 @@
-# Call with: ansible-playbook update.yml --ask_become_pass
+# Call with: ansible-playbook update.yml --ask-become-pass
 ---
 - hosts: linux
   become: yes
