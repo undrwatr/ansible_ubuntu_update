@@ -1,6 +1,9 @@
 # Call with: ansible-playbook update.yml --ask_become_pass
 ---
 - hosts: linux
+  become: yes
+  become_user: root
+  become_method: sudo
   tasks:
 
       - name: Update all packages
